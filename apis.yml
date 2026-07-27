@@ -1,8 +1,28 @@
 aid: gametime
 name: Gametime
-description: 'Gametime is a company surfaced as a portfolio company of accel, gv and added to the API
-  Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Gametime is a mobile-first ticket marketplace for last-minute tickets to live
+  sports, concerts, comedy, and theater across the United States and Canada.
+  Founded in 2012 by Brad Griffith and headquartered in San Francisco, Gametime
+  United, Inc. lets fans buy tickets up to roughly 90 minutes after an event
+  begins, with all-in (fee-inclusive) pricing, a two-tap checkout, mobile ticket
+  delivery, and buyer guarantees (Lowest Price Guarantee and lightning refunds).
+  The company is backed by Accel, GV, and others. Gametime does not publish a
+  public developer API; it runs a B2B "API Seller" program for professional
+  point-of-sale sellers. This profile was added to the API Evangelist network as
+  a portfolio-lead stub and enriched with identity and domain-security data.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://assets.gametime.co/web/message-preview.png?auto=webp&format=pjpg&width=1200&height=1200
 url: https://raw.githubusercontent.com/api-evangelist/gametime/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Tickets
+- Events
+- Ticketing Marketplace
+- Sports
+- Live Entertainment
+- Mobile
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +51,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.gametime.co
+  url: https://gametime.co
+- type: Support
+  url: https://support.gametime.co/
+- type: HelpCenter
+  url: https://support.gametime.co/
+- type: Blog
+  url: https://gametime.co/blog/
+- type: GitHubOrganization
+  url: https://github.com/gametimesf
+- type: TermsOfService
+  url: https://gametime.co/terms-of-service
+- type: PrivacyPolicy
+  url: https://gametime.co/privacy-policy
+- type: DomainSecurity
+  url: security/gametime-domain-security.yml
+- type: LLMsTxt
+  url: llms/gametime-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,0 +1,27 @@
+# Gametime
+
+> Gametime is a mobile-first ticket marketplace for last-minute tickets to sports, concerts, comedy, and theater across the United States and Canada. Buyers can purchase up to roughly 90 minutes after an event starts, with all-in (fee-inclusive) pricing, two-tap checkout, and mobile ticket delivery. Gametime does not publish a public developer API; it operates a B2B "API Seller" program for professional point-of-sale sellers.
+
+## About
+- [Gametime homepage](https://gametime.co/): Last-minute sports, shows, and concert tickets.
+- [Why Gametime](https://gametime.co/company/why-gametime/): Comparison vs. StubHub and SeatGeek; all-in pricing and guarantees.
+- [Careers](https://gametime.co/company/careers/): Open roles at Gametime United, Inc. (San Francisco, CA).
+
+## Support
+- [Help Center / Knowledge Base](https://support.gametime.co/): Buyer and seller support articles.
+
+## Content
+- [Blog](https://gametime.co/blog/): Event guides, ticket tips, and company news.
+
+## Developers
+- [GitHub organization (gametimesf)](https://github.com/gametimesf): Public repositories (internal tooling and infrastructure; no official public API SDKs).
+- [API Seller Terms](https://gametime.co/api-seller-terms): Terms for the professional point-of-sale API Seller program (no public developer documentation).
+
+## Legal
+- [Terms of Service](https://gametime.co/terms-of-service)
+- [Privacy Policy](https://gametime.co/privacy-policy)
+
+## Notes
+- No public OpenAPI/AsyncAPI/GraphQL specification is published.
+- No `/.well-known/` discovery documents (security.txt, openid-configuration, api-catalog, ai-plugin.json) were found (all 404 as of 2026-07-19).
+- No hosted MCP server, no public first-party client SDKs, and no public status page were found.
