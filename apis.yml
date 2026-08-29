@@ -11,6 +11,17 @@ description: >-
   public developer API; it runs a B2B "API Seller" program for professional
   point-of-sale sellers. This profile was added to the API Evangelist network as
   a portfolio-lead stub and enriched with identity and domain-security data.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
